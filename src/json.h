@@ -113,8 +113,6 @@ namespace json {
 
         Value set(const std::string& key, const std::string& value);
 
-        Value set(const std::string& key, const bool& value);
-
         // Getter/Setter with x[i] syntax.
         Value& operator[](const std::string& key);
 

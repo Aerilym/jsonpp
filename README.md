@@ -48,7 +48,6 @@ jsonObject["key1"] = json::String("potato");
 
 // Set a key to a bool
 jsonObject.set("key2", json::Boolean(true));
-jsonObject.set("key2", true);
 ```
 
 ### Arrays

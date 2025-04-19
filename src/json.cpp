@@ -287,10 +287,6 @@ json::Value json::Object::set(const std::string& key, const std::string& value) 
     return data[key] = String(value);
 }
 
-json::Value json::Object::set(const std::string& key, const bool& value) {
-    return data[key] = Boolean(value);
-}
-
 // Getter/Setter with x[i] syntax.
 json::Value& json::Object::operator[](const std::string& key) {
     return data[key];
